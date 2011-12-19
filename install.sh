@@ -1,5 +1,7 @@
 #!/bin/sh
 virtualenv python
+python/bin/python bootstrap.py
+bin/buildout
 GRROOT=$PWD
 GRPREFIX=$PWD/graph
 GRLIB=$PWD/graph/webapp
