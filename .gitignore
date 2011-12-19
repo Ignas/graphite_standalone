@@ -1,0 +1,10 @@
+.installed.cfg
+*.pyc
+*~
+bin/*
+parts/*
+graph/*
+python/*
+eggs/*
+*.swp
+var/log/*
